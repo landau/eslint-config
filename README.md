@@ -1,5 +1,7 @@
 # eslint-config
 
+[![Build Status](https://travis-ci.com/landau/eslint-config.svg?branch=master)](https://travis-ci.com/landau/eslint-config)
+
 My eslint-config
 
 ## Create a `.prettierrc`
