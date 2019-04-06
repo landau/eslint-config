@@ -10,7 +10,7 @@ module.exports = {
     'no-continue': 'off',
     'no-plusplus': 'off',
     'no-unused-vars': 'error',
-    'prefer-destructuring': 'on',
+    'prefer-destructuring': 'error',
     'prettier/prettier': 'error',
     'quote-props': [
       'error',
