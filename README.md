@@ -17,8 +17,6 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier \
   eslint-plugin-import
 ```
 
-### Usage
-
 ```js
 module.exports = {
   extends: ['@landau/eslint-config']
