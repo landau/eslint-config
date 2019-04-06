@@ -13,8 +13,8 @@ echo "module.exports = { singleQuote: true };" > .prettierrc.js
 ## JS Projects
 
 ```sh
-npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier \
-  eslint-plugin-import
+npm i -D @landau/eslint-config eslint prettier eslint-plugin-prettier \ 
+  eslint-config-prettier eslint-plugin-import
 ```
 
 ```js
@@ -26,8 +26,8 @@ module.exports = {
 #### With jsdoc
 
 ```sh
-npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier \
-  eslint-plugin-import eslint-plugin-jsdoc
+npm i -D @landau/eslint-config eslint prettier eslint-plugin-prettier \ 
+  eslint-config-prettier eslint-plugin-import eslint-plugin-jsdoc
 ```
 
 ```js
@@ -39,8 +39,9 @@ module.exports = {
 ## TS Projects
 
 ```sh
-npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier \
-  eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm i -D @landau/eslint-config eslint prettier eslint-plugin-prettier \ 
+  eslint-config-prettier eslint-plugin-import @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser
 ```
 
 ```js
