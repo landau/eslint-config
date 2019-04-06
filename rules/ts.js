@@ -10,6 +10,7 @@ module.exports = {
       'no-dupe-class-members': 'off',
       'no-undef': 'off',
       'import/prefer-default-export': 'off',
+      'import/no-unresolved': 'off',
       '@typescript-eslint/class-name-casing': 'error',
       '@typescript-eslint/explicit-function-return-type': 'error',
       '@typescript-eslint/interface-name-prefix': 'error',

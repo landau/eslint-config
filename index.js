@@ -1,3 +1,5 @@
+const airbnbBase = require('eslint-config-airbnb-base/rules/style');
+
 module.exports = {
   extends: ['eslint-config-airbnb-base', 'prettier'],
   plugins: ['prettier'],
@@ -9,6 +11,9 @@ module.exports = {
     'function-paren-newline': 'off',
     'no-continue': 'off',
     'no-plusplus': 'off',
+    'no-restricted-syntax': airbnbBase.rules['no-restricted-syntax'].filter(
+      bit => bit.selector !== 'ForOfStatement'
+    ),
     'no-unused-vars': 'error',
     'prefer-destructuring': 'error',
     'prettier/prettier': 'error',
@@ -21,6 +26,7 @@ module.exports = {
         numbers: false
       }
     ],
+    strict: 'off',
     'sort-vars': ['error', { ignoreCase: true }]
   }
 };
