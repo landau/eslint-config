@@ -32,7 +32,7 @@
     "prettier": "^1.16.4"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/changelog": "3.0.6",
     "@semantic-release/commit-analyzer": "6.3.3",
     "@semantic-release/git": "7.0.18",
     "@semantic-release/npm": "5.3.4",
