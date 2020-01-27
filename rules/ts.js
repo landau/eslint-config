@@ -12,6 +12,7 @@ module.exports = {
         'no-undef': 'off',
         'import/prefer-default-export': 'off',
         'import/no-unresolved': 'off',
+        'import/extensions': ['error', { ts: 'never' }],
         '@typescript-eslint/class-name-casing': 'error',
         '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/interface-name-prefix': 'error',
