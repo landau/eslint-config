@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/landau/eslint-config/compare/v3.0.2...v3.0.3) (2020-03-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb-base to v14.1.0 ([4afaefe](https://github.com/landau/eslint-config/commit/4afaefe3653b3aae018ef61388cc251d0f134383))
+
 ## [3.0.2](https://github.com/landau/eslint-config/compare/v3.0.1...v3.0.2) (2020-01-27)
 
 
