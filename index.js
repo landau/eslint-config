@@ -12,7 +12,7 @@ module.exports = {
     'no-continue': 'off',
     'no-plusplus': 'off',
     'no-restricted-syntax': airbnbBase.rules['no-restricted-syntax'].filter(
-      bit => bit.selector !== 'ForOfStatement'
+      (bit) => bit.selector !== 'ForOfStatement'
     ),
     'no-unused-vars': 'error',
     'prefer-destructuring': 'error',
@@ -23,10 +23,10 @@ module.exports = {
       {
         keywords: false,
         unnecessary: true,
-        numbers: false
-      }
+        numbers: false,
+      },
     ],
     strict: 'off',
-    'sort-vars': ['error', { ignoreCase: true }]
-  }
+    'sort-vars': ['error', { ignoreCase: true }],
+  },
 };
