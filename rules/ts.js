@@ -3,7 +3,7 @@ module.exports = {
     {
       files: ['**/*.ts'],
       parserOptions: {
-        sourceType: 'module'
+        sourceType: 'module',
       },
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint'],
@@ -18,7 +18,7 @@ module.exports = {
         '@typescript-eslint/interface-name-prefix': 'error',
         '@typescript-eslint/member-delimiter-style': [
           'error',
-          { singleline: { delimiter: 'semi', requireLast: true } }
+          { singleline: { delimiter: 'semi', requireLast: true } },
         ],
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-empty-interface': 'error',
@@ -29,19 +29,19 @@ module.exports = {
         '@typescript-eslint/no-parameter-properties': 'error',
         '@typescript-eslint/triple-slash-reference': [
           'error',
-          { path: 'never', types: 'never', lib: 'never' }
+          { path: 'never', types: 'never', lib: 'never' },
         ],
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-use-before-define': [
           'error',
-          { functions: false }
+          { functions: false },
         ],
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/prefer-namespace-keyword': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         semi: 'off',
-        '@typescript-eslint/semi': ['error']
-      }
-    }
-  ]
+        '@typescript-eslint/semi': ['error'],
+      },
+    },
+  ],
 };

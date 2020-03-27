@@ -10,14 +10,14 @@ module.exports = {
     'jsdoc/require-param': 'error',
     'jsdoc/require-param-description': 'warn',
     'jsdoc/require-returns-description': 'warn',
-    'jsdoc/require-returns-type': 'error'
+    'jsdoc/require-returns-type': 'error',
   },
   settings: {
     jsdoc: {
       tagNamePreference: {
         augments: 'extends',
-        return: 'returns'
-      }
-    }
-  }
+        return: 'returns',
+      },
+    },
+  },
 };
