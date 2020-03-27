@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/landau/eslint-config/compare/v3.0.3...v4.0.0) (2020-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2 ([#121](https://github.com/landau/eslint-config/issues/121)) ([54881ca](https://github.com/landau/eslint-config/commit/54881cad35494ed9389e5b603a830f598b9539ce))
+
+
+### BREAKING CHANGES
+
+* **deps:** Node 8 is no longer LTS
+
 ## [3.0.3](https://github.com/landau/eslint-config/compare/v3.0.2...v3.0.3) (2020-03-16)
 
 
