@@ -17,10 +17,10 @@ jobs:
     - stage: release
       node_js: lts/*
       # Advanced: optionally overwrite your default `script` step to skip the tests
+      on:
+        branch: master
       script: skip
       deploy:
-        on:
-          branch: master
         provider: script
         skip_cleanup: true
         script:
