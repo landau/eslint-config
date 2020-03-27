@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/landau/eslint-config#readme",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
