@@ -38,5 +38,6 @@
       "labels": ["UPDATE-NON-MAJOR"],
       "semanticCommits": true
     }
-  ]
+  ],
+  "schedule": ["every weekend"]
 }
