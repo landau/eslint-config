@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/landau/eslint-config/compare/v4.0.0...v4.0.1) (2020-05-27)
+
+
+### Bug Fixes
+
+* Replace removed TS rules ([#146](https://github.com/landau/eslint-config/issues/146)) ([2351e5a](https://github.com/landau/eslint-config/commit/2351e5af39be581f0e80da515f2f6c208be5d5fa))
+
 # [4.0.0](https://github.com/landau/eslint-config/compare/v3.0.3...v4.0.0) (2020-03-27)
 
 
