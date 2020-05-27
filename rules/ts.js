@@ -13,9 +13,8 @@ module.exports = {
         'import/prefer-default-export': 'off',
         'import/no-unresolved': 'off',
         'import/extensions': ['error', { ts: 'never' }],
-        '@typescript-eslint/class-name-casing': 'error',
         '@typescript-eslint/explicit-function-return-type': 'error',
-        '@typescript-eslint/interface-name-prefix': 'error',
+        '@typescript-eslint/naming-convention': 'error',
         '@typescript-eslint/member-delimiter-style': [
           'error',
           { singleline: { delimiter: 'semi', requireLast: true } },
