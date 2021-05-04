@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/landau/eslint-config/compare/v4.0.3...v4.0.4) (2021-05-04)
+
+
+### Bug Fixes
+
+* **deps:** upgrade deps ([f437f39](https://github.com/landau/eslint-config/commit/f437f39312597179b8d4bf16947a266fb3597b7f))
+
 ## [4.0.3](https://github.com/landau/eslint-config/compare/v4.0.2...v4.0.3) (2020-12-01)
 
 
