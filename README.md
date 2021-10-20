@@ -49,3 +49,11 @@ module.exports = {
   extends: ['@landau/eslint-config', '@landau/eslint-config/rules/ts']
 };
 ```
+
+## Releasing and Versioning
+
+Travis CI is not working for me at this time. Use this to release instead
+
+```sh
+npx semantic-release --ci false
+```
