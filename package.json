@@ -1,6 +1,6 @@
 {
   "name": "@landau/eslint-config",
-  "version": "4.0.6",
+  "version": "4.0.5",
   "description": "eslint config",
   "main": "index.js",
   "scripts": {

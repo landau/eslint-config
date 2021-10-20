@@ -1,3 +1,14 @@
+## [4.0.5](https://github.com/landau/eslint-config/compare/v4.0.4...v4.0.5) (2021-10-20)
+
+
+### Bug Fixes
+
+* update deps ([57650cd](https://github.com/landau/eslint-config/commit/57650cd47ee73e5457cb3d61f0c6d900c2d481ea))
+* update deps ([f92cdec](https://github.com/landau/eslint-config/commit/f92cdec72ba4d75fa92490c5e18fc6679c24631d))
+* update peer deps ([1e0bfdc](https://github.com/landau/eslint-config/commit/1e0bfdc9ce24356fb262ffc37d71a25344f113a9))
+* uptick version ([09917d7](https://github.com/landau/eslint-config/commit/09917d7c67e6d7e3960d2ecb8abc7cc2ef5d5aac))
+* uptick version ([3c39816](https://github.com/landau/eslint-config/commit/3c398161a0d26ae79dcc9a5980e35fe571dfaf4e))
+
 ## [4.0.4](https://github.com/landau/eslint-config/compare/v4.0.3...v4.0.4) (2021-05-04)
 
 
